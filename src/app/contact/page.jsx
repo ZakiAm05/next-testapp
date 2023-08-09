@@ -2,10 +2,15 @@ import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
 import Button from "@/components/Button/Button";
+
+export const metadata = {
+  title: "Contact Zakaria App ",
+  description: "This is My Contact page",
+};
 const Contact = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Let's Keep in Touch</h1>
+      <h1 className={styles.title}> Lets Keep in Touch</h1>
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <Image
